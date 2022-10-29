@@ -7,7 +7,8 @@
         "lint:fix": "npm run lint -- --fix",
         "format": "prettier --ignore-path .gitignore --check .",
         "format:fix": "prettier --ignore-path .gitignore --write .",
-        "start": "node ./bin/www"
+        "start": "node ./bin/www",
+        "husky:install": "husky install"
     },
     "repository": {
         "type": "git",
