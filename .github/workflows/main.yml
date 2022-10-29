@@ -34,4 +34,4 @@ jobs:
               run: eb init ${{ env.EB_APPLICATION_NAME }} --region ${{ env.AWS_REGION_NAME }} --platform ${{ env.EB_PLATFORM_NAME }}
 
             - name: Create Zip deploy package
-              run: eb deploy my-env
+              run: eb deploy
